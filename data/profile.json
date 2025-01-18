@@ -1,10 +1,10 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
+  "name": "Luciano Oliveira",
+  "photo": "https://avatars.githubusercontent.com/u/120647630?u=841321c2d747dded9ad0e2aae6bb89847fd93f6f&v=4",
+  "job": "Software Engineer",
   "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "phone": "(11) 96359-1532",
+  "email": "luciano.oliveira96@yahoo.com.br",
   "skills": {
     "hardSkills": [
       {
@@ -33,7 +33,7 @@
       }
     ],
     "softSkills": [
-      "Empatia",
+      "Responsável",
       "Liderança",
       "Trabalho em equipe",
       "Flexibilidade",
@@ -43,8 +43,7 @@
   "languages": [
     "Português BR",
     "Inglês (intermediário)",
-    "Espanhol (intermediário)",
-    "Italiano (iniciante)"
+    "Espanhol (intermediário)"
   ],
   "portfolio": [
     {

@@ -71,3 +71,7 @@ function updateProfessionalExperience(profileData) {
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
+
+function testFunction() {
+    teste()
+}
