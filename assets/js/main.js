@@ -29,7 +29,13 @@ function updateSoftSkills(profileData) {
 
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+    // hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+    // as duas formas funcionam.
+    const skillsData = profileData.skills.hardSkills
+    skillsData.forEach(element => {
+        hardSkills.innerHTML +=
+        `<li><img src="${element.logo}" alt="${element.name}" title="${element.name}"></li>`
+    });
 }
 
 function updateLanguages(profileData) {
@@ -71,7 +77,3 @@ function updateProfessionalExperience(profileData) {
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
 })()
-
-function testFunction() {
-    teste()
-}
